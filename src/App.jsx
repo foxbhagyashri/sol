@@ -1,18 +1,14 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import SchoolOfDesignLanding from "./components/Home"
 import './App.css'
-import SchoolOfLaw from './components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+     <SchoolOfDesignLanding />
       
-      <SchoolOfLaw />
-    
     </>
   )
 }
