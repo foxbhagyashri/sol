@@ -51,7 +51,7 @@ const CONTENT = {
   heroTag: "Admissions Open 2027-28",
   heroTitle: "Preparing Tomorrow’s Legal Leaders",
   heroSub:
-    "Applications Invited for SU-LAT 2027",
+    "Applications Invited for SU-LAT 2027-28",
 
   para:
     "Applicable for only UG course",
