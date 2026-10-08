@@ -49,18 +49,22 @@ const CONTENT = {
   phone: "+91-8956374111",
   phoneHref: "tel:+918956374111",
   heroTag: "Admissions Open 2026–27",
-  heroTitle: "Start Your Creative Journey at Sandip University School of Law",
+  heroTitle: "Preparing Tomorrow’s Legal Leaders",
   heroSub:
-    "Industry-connected legal education where you learn by doing — from legal theory and research to advocacy, practical training, and professional legal practice.",
+    "Applications Invited for SU-DAT 2027",
+
+  para:
+    "Applicable for only UG course",
+
   heroPoints: [
-    "Hands-on studio learning",
-    "Experienced faculty mentors",
+    "Practice-focused legal education",
+    "Experienced faculty & legal experts",
     "Industry-aligned curriculum",
-    "Modern campus & design labs",
+    "Moot courts & advocacy training",
   ],
   datNotice: {
     titlee: "1st Phase Examination",
-    title: "Applications Invited for SU-DAT 2027",
+    title: "",
     lastDateLabel: "Last Date to Apply",
     lastDate: "11 Feb 2027",
     examLabel: "SU-DAT Exam",
@@ -116,8 +120,8 @@ const CONTENT = {
     { q: "Is any entrance exam required for admission to Sandip University's law courses?", a: "Yes. The university may conduct its own entrance exam. We also accept valid scores from CLAT, MH-CET Law, LSAT–India, or university-level entrance tests." },
     { q: "What is the duration of Sandip University's law programs?", a: "BA LLB and BBA LLB are 5-year integrated programs. LLB (Hons) is a 3-year program. LLM programs are typically 2 years in duration." },
     { q: "Are internships mandatory as part of Sandip University's law curriculum?", a: "Yes. Internships with law firms, advocates, corporate legal departments, and NGOs are compulsory as per the Bar Council of India guidelines." },
-      { q: "Can I choose my specialization in Sandip University's law programs?", a: "Yes. Specializations such as Criminal Law, Corporate Law, Constitutional Law, Human Rights Law, and others are available depending on the program." },
-        { q: "Is the law degree offered by Sandip University approved by the Bar Council of India (BCI)?", a: "Yes. Our law programs are recognized and approved by the Bar Council of India." },
+    { q: "Can I choose my specialization in Sandip University's law programs?", a: "Yes. Specializations such as Criminal Law, Corporate Law, Constitutional Law, Human Rights Law, and others are available depending on the program." },
+    { q: "Is the law degree offered by Sandip University approved by the Bar Council of India (BCI)?", a: "Yes. Our law programs are recognized and approved by the Bar Council of India." },
   ],
   footerAddress: "Sandip University, Nashik, Maharashtra, India",
 };
@@ -653,11 +657,14 @@ function Hero() {
           >
             {CONTENT.heroTag}
           </span>
-          <h1 style={{ margin: "20px 0 0", fontSize: sm ? 48 : 36, fontWeight: 800, lineHeight: 1.15 }}>
+          <h1 style={{ margin: "20px 0 0", fontSize: sm ? 48 : 36, fontWeight: 700, lineHeight: 1.15 }}>
             {CONTENT.heroTitle}
           </h1>
-          <p style={{ margin: "16px 0 0", maxWidth: 576, fontSize: 18, lineHeight: 1.6, color: C.blue100 }}>
+          <h5 style={{ margin: "16px 0 0", maxWidth: 576, fontSize: 18, lineHeight: 1.6, color: "#fff" }}>
             {CONTENT.heroSub}
+          </h5>
+          <p style={{ margin: "16px 0 0", maxWidth: 576, fontSize: 15, lineHeight: 1.6, color: C.blue100 }}>
+            {CONTENT.para}
           </p>
           <div
             style={{
@@ -688,10 +695,10 @@ function Hero() {
               }}
             >
               <div>
-                <div style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: "0.08em", color: C.blue100 }}>
+                <div style={{ fontSize: 14, textTransform: "uppercase", letterSpacing: "0.08em", color: "red", fontWeight: 700, marginBottom: 4 }}>
                   {CONTENT.datNotice.lastDateLabel}
                 </div>
-                <div style={{ fontSize: 18, fontWeight: 700 }}>{CONTENT.datNotice.lastDate}</div>
+                <div style={{ fontSize: 16, fontWeight: 700 }}>{CONTENT.datNotice.lastDate}</div>
               </div>
 
               <div
@@ -704,10 +711,10 @@ function Hero() {
               />
 
               <div>
-                <div style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: "0.08em", color: C.blue100 }}>
+                <div style={{ fontSize: 14, textTransform: "uppercase", letterSpacing: "0.08em", color: "red", fontWeight: 700, marginBottom: 4 }}>
                   {CONTENT.datNotice.examLabel}
                 </div>
-                <div style={{ fontSize: 18, fontWeight: 700 }}>{CONTENT.datNotice.examDate}</div>
+                <div style={{ fontSize: 16, fontWeight: 700 }}>{CONTENT.datNotice.examDate}</div>
               </div>
             </div>
           </div>
