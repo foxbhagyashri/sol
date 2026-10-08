@@ -67,7 +67,7 @@ const CONTENT = {
     title: "",
     lastDateLabel: "Last Date to Apply",
     lastDate: "11 Feb 2027",
-    examLabel: "SU-DAT Exam",
+    examLabel: "SU-LAT Exam",
     examDate: "13 Feb 2027",
   },
 
