@@ -48,10 +48,10 @@ const CONTENT = {
   brand: "Sandip University",
   phone: "+91-8956374111",
   phoneHref: "tel:+918956374111",
-  heroTag: "Admissions Open 2026–27",
+  heroTag: "Admissions Open 2027-28",
   heroTitle: "Preparing Tomorrow’s Legal Leaders",
   heroSub:
-    "Applications Invited for SU-DAT 2027",
+    "Applications Invited for SU-LAT 2027",
 
   para:
     "Applicable for only UG course",
